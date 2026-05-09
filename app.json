@@ -2,6 +2,14 @@
   "expo": {
     "name": "joysichk_ui",
     "slug": "joysichk_ui",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "plugins": [
+      "react-native-ble-plx"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b4c88104-4d7b-4c4a-84b6-8d6ac1812799"
+      }
+    }
   }
 }
