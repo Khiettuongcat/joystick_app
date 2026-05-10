@@ -10,6 +10,20 @@
       "eas": {
         "projectId": "b4c88104-4d7b-4c4a-84b6-8d6ac1812799"
       }
+    },
+    "ios": {
+      "infoPlist": {
+        "NSBluetoothAlwaysUsageDescription": "Cần BLE để kết nối drone"
+      }
+    },
+    "android": {
+      "permissions": [
+        "BLUETOOTH",
+        "BLUETOOTH_ADMIN",
+        "BLUETOOTH_SCAN",
+        "BLUETOOTH_CONNECT",
+        "ACCESS_FINE_LOCATION"
+      ]
     }
   }
 }
